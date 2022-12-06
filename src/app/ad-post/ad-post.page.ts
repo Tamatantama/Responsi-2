@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { LoadingController, NavController, ToastController } from '@ionic/angular';
 import { Post } from '../models/post.mode';
+import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/compat/firestore';
 
 @Component({
   selector: 'app-ad-post',
